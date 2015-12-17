@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salut je m&apos;appele Jean-Michel le sapin des bois"
+        android:id="@+id/firstText"
+        android:layout_weight="0.13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salut je m&apos;appele Jean-Michel le sapin des bois"
+        android:id="@+id/secondText"
+        android:layout_weight="0.13"
+        android:shadowDx="56"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salut je m&apos;appele Jean-Michel le sapin des bois"
+        android:id="@+id/threeText"
+        android:layout_weight="0.13" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputText" />
+
+</LinearLayout>
