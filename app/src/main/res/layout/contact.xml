@@ -21,8 +21,23 @@
 
         <LinearLayout
             android:orientation="vertical"
-            android:layout_width="320dp"
-            android:layout_height="140dp"
+            android:layout_width="match_parent"
+            android:layout_height="147dp"
+            android:layout_gravity="left|center_vertical"
+            android:background="#60adb6" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Deuxième Contact"
+                android:id="@+id/textView7" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="147dp"
             android:layout_gravity="left|bottom"
             android:background="#60adb6" >
 
@@ -30,39 +45,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Troisième Message"
+                android:text="Troisième Contact"
                 android:id="@+id/textView8" />
         </LinearLayout>
 
         <LinearLayout
             android:orientation="vertical"
-            android:layout_width="320dp"
-            android:layout_height="140dp"
+            android:layout_width="350dp"
+            android:layout_height="147dp"
             android:background="#60adb6"
-            android:layout_gravity="left|top">
+            android:layout_gravity="center_horizontal|top">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Premier Message"
+                android:text="Premier Contact"
                 android:id="@+id/textView5" />
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="320dp"
-            android:layout_height="140dp"
-            android:layout_gravity="right|center_vertical"
-            android:background="#d1d9da" >
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Deuxième Message"
-                android:id="@+id/textView7" />
         </LinearLayout>
     </FrameLayout>
 </LinearLayout>
